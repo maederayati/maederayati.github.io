@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Visualization of Unemployment Rate in US</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>   
+
+	 
+
+
+
+
+	
+	<!-- D3 -->
+	<script src="//d3js.org/d3.v4.min.js"></script>
+	<!--slider library-->
+	<link href="slider/nouislider.min.css" rel="stylesheet">
+	
+		<link rel="stylesheet" href="styleSheets/main.css">
+ 
+ 
+ 
+</head>
+<body>
+	<div class="container-fluid">
+
+	<!-- Header -->
+	 <h1>Visualization of Unemployment Rate in US</h1>
+
+	
+
+  
+	 
+	
+	<div class="row">
+		
+		
+		
+		<div class="col-md-3">
+			<div id="tooltip-container"></div>
+			
+			<!--map-->
+			<div id="canvas-svg"></div>
+			
+			<!--Toolbars on the left-->
+			<div id="barCheckbox">
+				<label id="chb">Show natinal unemployment rate <input id="newch" type='checkbox' value='NR' width="20"></label>
+			</div>
+			
+			<div id="barText">
+				Please select year range:<br><br>
+			</div>
+				
+			<!--Slider-->	
+			<div id="barRange">
+				<div id="range" height="400"></div>
+			</div>
+
+				
+			
+					
+		</div>
+		
+		
+		<div class="col-md-9">
+		
+			<!--Graph-->
+			<svg width="900" height="600" class="s2"></svg>
+		</div>
+	
+		 <!-- Slider -->
+		<script src="slider/nouislider.min.js"></script>
+		<script src="slider/mySlider.js"></script>
+
+		<!-- d3 graph -->
+		<script src="graph.js"></script>
+	
+		<!-- d3 map -->
+		<script src="map.js"></script>
+ 
+ 
+	</div>
+</body>
+</html>
+
