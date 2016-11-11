@@ -24,7 +24,6 @@ stroke: #ffffff;
     stroke-weight: 1px;
     stroke-opacity: 0.5;
 }
-<style>
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -40,28 +39,18 @@ b {
     stroke-width: 1px;
 }
 
-#tooltip {
-    font-size: 10pt;
-    font-weight: 900;
-
-    fill: #000000;
-    stroke: #ffffff;
-    stroke-width: 0.25px;
-}
 
 .highlight {
     stroke: red;
     stroke-weight: 4px;
     stroke-opacity: 1.0;
 }
-#tfheader{
-        background-color:#c3dfef;
-    }
-    #tfnewsearch{
+
+    #tosearch{
         float:center;
-        padding:20px;
+        padding:4px;
     }
-    .tftextinput{
+    .input_text{
         margin: 0;
         padding: 5px 15px;
         font-family: Arial, Helvetica, sans-serif;
@@ -70,33 +59,26 @@ b {
         border-top-left-radius: 5px 5px;
         border-bottom-left-radius: 5px 5px;
     }
-    .tfbutton {
-        margin: 0;
-        padding: 5px 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size:14px;
-        outline: none;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        color: #ffffff;
-        border: solid 1px #0076a3; border-right:0px;
-        background: #0095cd;
-        background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-        background: -moz-linear-gradient(top,  #00adee,  #0078a5);
-        border-top-right-radius: 5px 5px;
-        border-bottom-right-radius: 5px 5px;
-    }
-    .tfbutton:hover {
+   
+    .searchButton:hover {
         text-decoration: none;
         background: #007ead;
         background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
         background: -moz-linear-gradient(top,  #0095cc,  #00678e);
     }
     /* Fixes submit button height problem in Firefox */
-    .tfbutton::-moz-focus-inner {
-      border: 0;
-    }
+    .searchButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
     .tfclear{
         clear:both;
     }
@@ -105,16 +87,17 @@ b {
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="arcDiagram.js"></script>
 <body>
-<form>Display Mode:
+<form>Display Mode &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
   <label><input type="radio" name="arcStyle" value="ortho" checked> Orthogonal</label>
   <label><input type="radio" name="arcStyle" value="arc"> Arcs</label>
 </form>
 <form>Level Height Mode:
-  <label><input type="radio" name="mode" value="compact" checked> Compact</label>
+  <label><input type="radio" name="mode" value="compact" checked> Compact</label>&nbsp&nbsp&nbsp
   <label><input type="radio" name="mode" value="distance"> Distance</label>
 </form>
-<div id="tfnewsearch" >
-                <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton" onclick="getValue()">
+<div id="tosearch" >
+                <input type="text" id="input" value="" sclass="input_text" name="q" size="21" maxlength="120">
+                <input type="submit" value="search for a word" class="searchButton" onclick="genearateValue()">
         </div>
 <svg id="dep1" width=960 height=500>
   <defs>
@@ -124,13 +107,11 @@ b {
   </defs>
 </svg>
 <script>
-var term = "usa";
+
+var term = "america";
 var data;
-var relationships = [];
-var internalrelationships=[];
-var tempNode=[];
-var tempLinks=[];
-var dataSet=[]; 
+var targetLinks=[];
+var dataAll=[]; 
 
 var mode="compact",
     arcStyle="ortho",
@@ -142,11 +123,15 @@ var mode="compact",
 var arcd = d3.arcDiagram()
     .linkLevel(mode);
 
+var relationships = [];
+var nestedrelationships=[];
+var targetNode=[];
+
 var svg = d3.select("#dep1")
     .append("svg:g")
     .attr("transform", "translate("+radius*3+","+(upperHeight+topMargin)+")");
-
-    function getValue()
+    
+    function genearateValue()
 {
     var temp;
     term = document.getElementById("input").value;
@@ -154,28 +139,19 @@ var svg = d3.select("#dep1")
     d3.selectAll("svg#arc").remove();
     
     rs = new Object();
-    tempNode=[];
-    tempLinks=[];
-    dataSet=[];
+    targetNode=[];
+    targetLinks=[];
+    dataAll=[];
     
-    calculateRelationships(term);
+   compute(term);
 
-   generateLinks(term);
+   extractLinks(term);
 }
 
 document.getElementById("input").value = term;
 
-//function 
-//console.log(terms);
 
-
-/*terms.forEach(function(t) {
-    console.log(t);
-    if (!relationships[t])
-        relationships[t] = [];
-});*/
-
-function sortRelations(obj) {
+function sortAll(obj) {
     var arr = []; 
     for(var key in obj)
         if (key != 'undefined')
@@ -184,29 +160,15 @@ function sortRelations(obj) {
     return arr.sort(function(a,b){ return b.freq - a.freq });
 }
 
-d3.tsv("wikinews.tsv", function(error, data_) {
-  if (error) throw error;
-    data = data_;
-    rs = new Object();
 
-    calculateRelationships(term);
-
-    generateLinks(term);
-
-});
-function calculateRelationships(terms) {
+    function compute(terms) {
     data.forEach(function(d) {
-        //d.date = new Date(d["time"]);
-
         var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
         var list = line.split("|");
 
-        // Return if the line does not contain the given term
-        if (!line.includes(terms)) return;
-        
-        for (var i=0; i<list.length;i++){
+         for (var i=0; i<list.length;i++){
             var term = list[i];
-            //terms.forEach(function(t) {
+
             if (!relationships[terms]) relationships[terms] = [];
 
             if (!relationships[terms][term])
@@ -219,91 +181,56 @@ function calculateRelationships(terms) {
 }
 
 
-function generateLinks(term) {
-    var force = sortRelations(relationships[term]).slice(0,50);
-    //console.log(force);
-    
-    var links = [];
+d3.tsv("wikinews.tsv", function(error, data_) {
+  if (error) throw error;
+    data = data_;
+    rs = new Object();
+
+   compute(term);
+
+    extractLinks(term);
+
+});
+
+
+
+function extractLinks(term) {
+    var force = sortAll(relationships[term]).slice(0,50);
+     var links = [];
     var data=[];
     var i=0;
     
     force.forEach(function(f){
-        //data.push(f.term);
         if(data[f.term]==undefined)
             data[f.term]=0;
         data[f.term]=i++;
     });
     i=0;
-    
-    //console.log(data);
 
     force.forEach(function(f) {
-        tempNode.push({name:f.term, group:i});
+        targetNode.push({name:f.term, group:i});
         links.push({ source: term, target: f.term, value: f.freq });
-        tempLinks.push({source:data[f.term], target:data[term], value: f.freq});
-        dataSet.push(f.term);
+        targetLinks.push({source:data[f.term], target:data[term], value: f.freq});
+        dataAll.push(f.term);
         i++;
     });
-
-    //console.log(tempLinks);
-    //console.log(tempNode);
     
-    generateMoreLinks(data);
-    extract();
-    //console.log(dataSet);
-    
-    
+    findMoreLinks(data);
+    extract(); 
 }
 
-function generateMoreLinks(data1){
-    data.forEach(function(d) {
-        //d.date = new Date(d["time"]);
 
-        var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
-        
-        for(var i=1;i<dataSet.length;i++){
-        // Return if the line does not contain the given term
-            
-            if (!line.includes(dataSet[i])) continue;
-            
-            for(var j=i+1;j<dataSet.length;j++){
-            
-                if (!line.includes(dataSet[j])) continue;
-                
-                    //console.log("term1:"+dataSet[i]+"term2:"+dataSet[j]);
-                    
-                if (!internalrelationships[dataSet[i]]) internalrelationships[dataSet[i]] = [];
-                
-                if (!internalrelationships[dataSet[i]][dataSet[j]])
-                    internalrelationships[dataSet[i]][dataSet[j]] = 1;
-            else
-                internalrelationships[dataSet[i]][dataSet[j]]++;
-            }
-      }
-    });
-    for(i=1;i<dataSet.length;i++){
-        var force = sortRelations(internalrelationships[dataSet[i]]).slice(0,6); //Shows only 10 words 
-        //console.log(force);
-            
-    force.forEach(function(f) {
-            //console.log("Source:"+data1[f.term]+"\ttarget"+data1[dataSet[i]]);
-            if(data1[f.term]!=undefined)
-            tempLinks.push({source:data1[f.term], target:data1[dataSet[i]], value: f.freq});
-    });
-    }
-    //console.log(tempLinks);
-}
 
 
 
 
 
 function extract() {
-    arcd.nodes(tempNode).links(tempLinks);
+    arcd.nodes(targetNode).links(targetLinks);
     arcd();
 
     var xscale = d3.scale.linear()
-        .domain([0, tempNode.length])
+        .domain([0, targetNode.length])
         .range([0, width]);
 
     var yscale = d3.scale.linear()
@@ -361,6 +288,38 @@ function extract() {
 
 
 }
+function findMoreLinks(data1){
+    data.forEach(function(d) {
+
+        var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
+        
+        for(var i=1;i<dataAll.length;i++){
+            
+            if (!line.includes(dataAll[i])) continue;
+            
+            for(var j=i+1;j<dataAll.length;j++){
+            
+                if (!line.includes(dataAll[j])) continue;
+                
+                if (!nestedrelationships[dataAll[i]]) nestedrelationships[dataAll[i]] = [];
+                
+                if (!nestedrelationships[dataAll[i]][dataAll[j]])
+                    nestedrelationships[dataAll[i]][dataAll[j]] = 1;
+            else
+                nestedrelationships[dataAll[i]][dataAll[j]]++;
+            }
+      }
+    });
+    for(i=1;i<dataAll.length;i++){
+        var force = sortAll(nestedrelationships[dataAll[i]]).slice(0,5); 
+    force.forEach(function(f) {
+            
+            if(data1[f.term]!=undefined)
+            targetLinks.push({source:data1[f.term], target:data1[dataAll[i]], value: f.freq});
+    });
+    }
+    
+}
 
 
 // tiny path generator for a semicircle or orthogonal path
@@ -411,58 +370,6 @@ function pathgen() {
     return gen;
 }
 
-function MouseOver(d){
-    var list = new Object();
-        list[d.name] = new Object();
 
-        d3.selectAll("svg#arc").selectAll("path.link")
-            .style("stroke-opacity" , function(l) {  
-                if (l.source.name==d.name){
-                    if (!list[l.target.name]){
-                        list[l.target.name] = new Object();
-                        list[l.target.name].count=1; 
-                        list[l.target.name].year=l.m;  
-                        list[l.target.name].linkcount=l.count;    
-                    }    
-                      
-                    return 1;
-                }  
-                else if (l.target.name==d.name){
-                    if (!list[l.source.name]){
-                        list[l.source.name] = new Object();
-                        list[l.source.name].count=1; 
-                        list[l.source.name].year=l.m;  
-                        list[l.source.name].linkcount=l.count;  
-                    }    
-                    
-                    return 1;
-                }    
-                else
-                  return 0.01;  
-        });
-        nodes.style("fill-opacity" , function(n) {  
-            if (list[n.name])
-                return 1;
-            else
-              return 0.1;  
-            });
-        console.log("hovered");
-}
-function MouseOut(d){
-    d3.selectAll("svg#arc").selectAll("path.link")
-            .style("stroke-opacity",1);
-}
-
-function MouseOverArc(d){
-    var source=d.source.name;
-    var target=d.target.name;
-    d3.selectAll("svg#arc").selectAll("path.link")
-            .style("stroke-opacity" , function(l) {  
-                if (l.source.name==source&&l.target.name==target)
-                    return 1;
-                else
-                    return 0;
-            });
-}
 </script>
 </body>
