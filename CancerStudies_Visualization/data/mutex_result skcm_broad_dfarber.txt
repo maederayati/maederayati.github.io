@@ -1,0 +1,137 @@
+geneA	geneB	p-Value	Log Odds Ratio	Association
+CFTR	TG	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+CFTR	TLR7	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	GPRC6A	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CFTR	TP53	0.16000000000000197	Infinity	Tendency towards co-occurrence
+CFTR	GLI2	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	NOD2	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	TPO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	TLR3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+CFTR	MARCO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CFTR	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+CFTR	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CFTR	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CFTR	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TG	TLR7	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	GPRC6A	0.7700000000000067	-Infinity	Tendency towards mutual exclusivity
+TG	TP53	0.5782608695652208	-Infinity	Tendency towards mutual exclusivity
+TG	GLI2	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	NOD2	0.12000000000000076	Infinity	Tendency towards co-occurrence
+TG	TPO	0.12000000000000076	Infinity	Tendency towards co-occurrence
+TG	TLR3	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	APC	0.5782608695652208	-Infinity	Tendency towards mutual exclusivity
+TG	MARCO	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	FGF9	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	E2F1	0.7700000000000067	-Infinity	Tendency towards mutual exclusivity
+TG	CIITA	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TG	GC	0.7700000000000067	-Infinity	Tendency towards mutual exclusivity
+TG	ABCA1	0.7700000000000067	-Infinity	Tendency towards mutual exclusivity
+TG	PLA2G3	0.8800000000000171	-Infinity	Tendency towards mutual exclusivity
+TLR7	GPRC6A	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR7	TP53	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+TLR7	GLI2	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	NOD2	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	TPO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	TLR3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+TLR7	MARCO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	E2F1	0.08000000000000083	Infinity	Tendency towards co-occurrence
+TLR7	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR7	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR7	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR7	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	TP53	0.7000000000000031	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	GLI2	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	NOD2	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	TPO	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	TLR3	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	APC	0.7000000000000031	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	MARCO	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	FGF9	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	E2F1	0.843333333333341	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	CIITA	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	GC	0.15666666666666698	3.091042453358316	Tendency towards co-occurrence
+GPRC6A	ABCA1	0.843333333333341	-Infinity	Tendency towards mutual exclusivity
+GPRC6A	PLA2G3	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TP53	GLI2	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	NOD2	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	TPO	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	TLR3	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	APC	0.4731225296442584	-Infinity	Tendency towards mutual exclusivity
+TP53	MARCO	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	FGF9	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	E2F1	0.6999999999999931	-Infinity	Tendency towards mutual exclusivity
+TP53	CIITA	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+TP53	GC	0.6999999999999931	-Infinity	Tendency towards mutual exclusivity
+TP53	ABCA1	0.6999999999999931	-Infinity	Tendency towards mutual exclusivity
+TP53	PLA2G3	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+GLI2	NOD2	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GLI2	TPO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GLI2	TLR3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GLI2	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+GLI2	MARCO	0.04000000000000035	Infinity	Tendency towards co-occurrence(Significant)
+GLI2	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GLI2	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GLI2	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+GLI2	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GLI2	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+GLI2	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	TPO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	TLR3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+NOD2	MARCO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+NOD2	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+NOD2	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+NOD2	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+NOD2	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TPO	TLR3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TPO	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+TPO	MARCO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TPO	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TPO	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TPO	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TPO	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TPO	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TPO	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR3	APC	0.840000000000001	-Infinity	Tendency towards mutual exclusivity
+TLR3	MARCO	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR3	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR3	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR3	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+TLR3	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR3	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+TLR3	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+APC	MARCO	0.839999999999989	-Infinity	Tendency towards mutual exclusivity
+APC	FGF9	0.1599999999999997	Infinity	Tendency towards co-occurrence
+APC	E2F1	0.6999999999999931	-Infinity	Tendency towards mutual exclusivity
+APC	CIITA	0.1599999999999997	Infinity	Tendency towards co-occurrence
+APC	GC	0.6999999999999931	-Infinity	Tendency towards mutual exclusivity
+APC	ABCA1	0.2999999999999968	1.8971199848858813	Tendency towards co-occurrence
+APC	PLA2G3	0.1599999999999997	Infinity	Tendency towards co-occurrence
+MARCO	FGF9	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+MARCO	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+MARCO	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+MARCO	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+MARCO	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+MARCO	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+FGF9	E2F1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+FGF9	CIITA	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+FGF9	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+FGF9	ABCA1	0.08000000000000083	Infinity	Tendency towards co-occurrence
+FGF9	PLA2G3	0.9600000000000114	-Infinity	Tendency towards mutual exclusivity
+E2F1	CIITA	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+E2F1	GC	0.843333333333341	-Infinity	Tendency towards mutual exclusivity
+E2F1	ABCA1	0.843333333333341	-Infinity	Tendency towards mutual exclusivity
+E2F1	PLA2G3	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CIITA	GC	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CIITA	ABCA1	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+CIITA	PLA2G3	0.04000000000000035	Infinity	Tendency towards co-occurrence(Significant)
+GC	ABCA1	0.843333333333341	-Infinity	Tendency towards mutual exclusivity
+GC	PLA2G3	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity
+ABCA1	PLA2G3	0.9200000000000014	-Infinity	Tendency towards mutual exclusivity

@@ -1,0 +1,137 @@
+geneA	geneB	p-Value	Log Odds Ratio	Association
+CFTR	TG	0.011309414758845442	0.7872197364439202	Tendency towards co-occurrence(Significant)
+CFTR	TLR7	0.17174535714508693	0.6090640633494039	Tendency towards co-occurrence
+CFTR	GPRC6A	0.06064297695562211	0.6113094025845244	Tendency towards co-occurrence
+CFTR	TP53	0.0011025159466017918	1.055289606680811	Tendency towards co-occurrence(Significant)
+CFTR	GLI2	0.1378972781507014	0.5157396385684196	Tendency towards co-occurrence
+CFTR	NOD2	0.00014404022763225575	1.6521490305271502	Tendency towards co-occurrence(Significant)
+CFTR	TPO	0.00004601561876359656	1.3981288187668934	Tendency towards co-occurrence(Significant)
+CFTR	TLR3	0.14296656224744997	0.6815595653875575	Tendency towards co-occurrence
+CFTR	APC	0.01446121940031161	0.9480782493110399	Tendency towards co-occurrence(Significant)
+CFTR	MARCO	0.005719817144670168	0.9257694758286988	Tendency towards co-occurrence(Significant)
+CFTR	FGF9	0.04572525010803191	1.9281713247179317	Tendency towards co-occurrence(Significant)
+CFTR	E2F1	0.011826092259807536	1.5564453822935902	Tendency towards co-occurrence(Significant)
+CFTR	CIITA	0.00027435666111972213	1.637608789400797	Tendency towards co-occurrence(Significant)
+CFTR	GC	0.20426782351505463	0.703509967595492	Tendency towards co-occurrence
+CFTR	ABCA1	0.00008992202945392465	1.9521562655522662	Tendency towards co-occurrence(Significant)
+CFTR	PLA2G3	0.11670339627439368	0.7591579424810477	Tendency towards co-occurrence
+TG	TLR7	0.05304675068634112	0.9336824745860242	Tendency towards co-occurrence
+TG	GPRC6A	0.037109646403057125	0.7033650699431375	Tendency towards co-occurrence(Significant)
+TG	TP53	0.02417251717205993	0.7320625968096189	Tendency towards co-occurrence(Significant)
+TG	GLI2	0.0001267172480154749	1.452252328911688	Tendency towards co-occurrence(Significant)
+TG	NOD2	0.006718658719746518	1.2039728043259361	Tendency towards co-occurrence(Significant)
+TG	TPO	0.049670298237075826	0.6724870428496363	Tendency towards co-occurrence(Significant)
+TG	TLR3	0.0120733565547802	1.2459370034249682	Tendency towards co-occurrence(Significant)
+TG	APC	0.2465334986037504	0.38227049112769607	Tendency towards co-occurrence
+TG	MARCO	0.0008860654856708555	1.133791795789283	Tendency towards co-occurrence(Significant)
+TG	FGF9	0.38249141242335644	-Infinity	Tendency towards mutual exclusivity
+TG	E2F1	0.04016477555892693	1.2797224582757671	Tendency towards co-occurrence(Significant)
+TG	CIITA	0.012452652985648465	1.1482678791139707	Tendency towards co-occurrence(Significant)
+TG	GC	0.40024217795608535	0.3687330988394344	Tendency towards co-occurrence
+TG	ABCA1	0.03085386669167206	1.0947060337010446	Tendency towards co-occurrence(Significant)
+TG	PLA2G3	0.0018571901605234343	1.5708860664483844	Tendency towards co-occurrence(Significant)
+TLR7	GPRC6A	0.003867841119281564	1.4703197699309585	Tendency towards co-occurrence(Significant)
+TLR7	TP53	0.22251367233336186	0.5501370439808788	Tendency towards co-occurrence
+TLR7	GLI2	0.37160562527148944	0.3958956570920137	Tendency towards co-occurrence
+TLR7	NOD2	0.17760636396940183	0.8534898306351248	Tendency towards co-occurrence
+TLR7	TPO	0.01149490094476825	1.3168658546881278	Tendency towards co-occurrence(Significant)
+TLR7	TLR3	0.3183273730666169	0.6543941942627121	Tendency towards co-occurrence
+TLR7	APC	0.03854481594438349	1.1945535824094444	Tendency towards co-occurrence(Significant)
+TLR7	MARCO	0.4078219182502305	-0.4695826652319416	Tendency towards mutual exclusivity
+TLR7	FGF9	0.7441971711532204	-Infinity	Tendency towards mutual exclusivity
+TLR7	E2F1	0.48861005963625403	-Infinity	Tendency towards mutual exclusivity
+TLR7	CIITA	0.1488760124374079	0.9506154744152298	Tendency towards co-occurrence
+TLR7	GC	0.031701131816395764	1.725738368130261	Tendency towards co-occurrence(Significant)
+TLR7	ABCA1	0.08582792606344733	1.2377701839092266	Tendency towards co-occurrence
+TLR7	PLA2G3	0.296222844829524	0.7145875117978148	Tendency towards co-occurrence
+GPRC6A	TP53	0.0001562726811335576	1.3290022485030866	Tendency towards co-occurrence(Significant)
+GPRC6A	GLI2	0.060699176007969514	0.755219609202323	Tendency towards co-occurrence
+GPRC6A	NOD2	0.004554053952339059	1.3301240896528361	Tendency towards co-occurrence(Significant)
+GPRC6A	TPO	0.0001591212294515476	1.4039939382192914	Tendency towards co-occurrence(Significant)
+GPRC6A	TLR3	0.04375218285059312	1.0597724553518457	Tendency towards co-occurrence(Significant)
+GPRC6A	APC	0.0038746994344854876	1.2111345973535559	Tendency towards co-occurrence(Significant)
+GPRC6A	MARCO	0.15964338865854144	0.4681145056729409	Tendency towards co-occurrence
+GPRC6A	FGF9	0.14306937094843045	1.4521075796894625	Tendency towards co-occurrence
+GPRC6A	E2F1	0.22341132978972972	0.7602864833975738	Tendency towards co-occurrence
+GPRC6A	CIITA	0.4320761741895981	0.2341466246585406	Tendency towards co-occurrence
+GPRC6A	GC	0.0901924141358243	1.0690219650471873	Tendency towards co-occurrence
+GPRC6A	ABCA1	0.008779697011118127	1.3971256419564635	Tendency towards co-occurrence(Significant)
+GPRC6A	PLA2G3	0.26136806146183167	0.5385235756824917	Tendency towards co-occurrence
+TP53	GLI2	0.007695193964233458	1.0471429534386294	Tendency towards co-occurrence(Significant)
+TP53	NOD2	0.00002147466508934193	1.8870696490323797	Tendency towards co-occurrence(Significant)
+TP53	TPO	0.002926975113670245	1.074360030129506	Tendency towards co-occurrence(Significant)
+TP53	TLR3	0.38925955656892725	0.30830135965451666	Tendency towards co-occurrence
+TP53	APC	0.00022402662501722325	1.4767719460860067	Tendency towards co-occurrence(Significant)
+TP53	MARCO	0.0071224001324505775	0.9454039679493829	Tendency towards co-occurrence(Significant)
+TP53	FGF9	0.5779717963791028	0.29423947299793995	Tendency towards co-occurrence
+TP53	E2F1	0.2892850103909689	0.6011647908482951	Tendency towards co-occurrence
+TP53	CIITA	0.022000961850284714	1.0784095813505903	Tendency towards co-occurrence(Significant)
+TP53	GC	0.36460159198619346	-0.830864431117146	Tendency towards mutual exclusivity
+TP53	ABCA1	0.01817787779810774	1.2262713530483915	Tendency towards co-occurrence(Significant)
+TP53	PLA2G3	0.06074751448320021	0.9692985319877905	Tendency towards co-occurrence
+GLI2	NOD2	0.11619806792947172	0.8017491901419427	Tendency towards co-occurrence
+GLI2	TPO	0.015311650536587824	1.0095482253607377	Tendency towards co-occurrence(Significant)
+GLI2	TLR3	0.6586664573657429	-0.037740327982847086	Tendency towards mutual exclusivity
+GLI2	APC	0.27104289493267236	-0.6931471805599453	Tendency towards mutual exclusivity
+GLI2	MARCO	0.009346632824497858	1.0549130282021657	Tendency towards co-occurrence(Significant)
+GLI2	FGF9	0.5780425627933964	-Infinity	Tendency towards mutual exclusivity
+GLI2	E2F1	0.026188535863929267	1.5550438403683016	Tendency towards co-occurrence(Significant)
+GLI2	CIITA	0.027016326629544875	1.1786549963416462	Tendency towards co-occurrence(Significant)
+GLI2	GC	0.00628697861482556	1.8080403548321926	Tendency towards co-occurrence(Significant)
+GLI2	ABCA1	0.035464459104957	1.2296152349392737	Tendency towards co-occurrence(Significant)
+GLI2	PLA2G3	0.008094526206752148	1.5199759828440724	Tendency towards co-occurrence(Significant)
+NOD2	TPO	0.000015595239397674243	1.9859154836690125	Tendency towards co-occurrence(Significant)
+NOD2	TLR3	0.0013583846924853813	1.9499834744429492	Tendency towards co-occurrence(Significant)
+NOD2	APC	0.0066979990562416065	1.4186596456219223	Tendency towards co-occurrence(Significant)
+NOD2	MARCO	0.001220814583165466	1.4961092271270973	Tendency towards co-occurrence(Significant)
+NOD2	FGF9	0.30819040020202315	1.2178757094949273	Tendency towards co-occurrence
+NOD2	E2F1	0.20481214791915553	1.0176432261344426	Tendency towards co-occurrence
+NOD2	CIITA	0.00007108837678636831	2.203378442910598	Tendency towards co-occurrence(Significant)
+NOD2	GC	0.37944662957522257	-Infinity	Tendency towards mutual exclusivity
+NOD2	ABCA1	0.0009989694768029259	2.0271355889778992	Tendency towards co-occurrence(Significant)
+NOD2	PLA2G3	0.0001093530918870505	2.3156571745613985	Tendency towards co-occurrence(Significant)
+TPO	TLR3	0.10353985366875144	0.8604993722457396	Tendency towards co-occurrence
+TPO	APC	0.008156315070173316	1.133098464739279	Tendency towards co-occurrence(Significant)
+TPO	MARCO	0.11606829123897715	0.5549504286749287	Tendency towards co-occurrence
+TPO	FGF9	0.12881052751201363	1.5247952692800213	Tendency towards co-occurrence
+TPO	E2F1	0.01199813508898901	1.6485308382253778	Tendency towards co-occurrence(Significant)
+TPO	CIITA	0.024956529554069226	1.1128575438041586	Tendency towards co-occurrence(Significant)
+TPO	GC	0.01758741909519053	1.5117994428701844	Tendency towards co-occurrence(Significant)
+TPO	ABCA1	0.02580653303356422	1.215988241070347	Tendency towards co-occurrence(Significant)
+TPO	PLA2G3	0.02580653303356422	1.215988241070347	Tendency towards co-occurrence(Significant)
+TLR3	APC	0.1102324467662132	0.9386202082722438	Tendency towards co-occurrence
+TLR3	MARCO	0.3081645934775724	0.44628710262841953	Tendency towards co-occurrence
+TLR3	FGF9	0.24495447358253747	1.5099083170870673	Tendency towards co-occurrence
+TLR3	E2F1	0.1335404697018972	1.3232362251527536	Tendency towards co-occurrence
+TLR3	CIITA	0.13322986925293914	1.010836677785724	Tendency towards co-occurrence
+TLR3	GC	0.5223699417041232	0.38776553100876343	Tendency towards co-occurrence
+TLR3	ABCA1	0.014564325176235017	1.713797927758343	Tendency towards co-occurrence(Significant)
+TLR3	PLA2G3	0.014564325176235017	1.713797927758343	Tendency towards co-occurrence(Significant)
+APC	MARCO	0.20833682863074748	0.4700036292457356	Tendency towards co-occurrence
+APC	FGF9	0.39503404867958847	0.8834028650293198	Tendency towards co-occurrence
+APC	E2F1	0.019642775595899768	1.656690797284646	Tendency towards co-occurrence(Significant)
+APC	CIITA	0.4047187498732516	0.33135713595444244	Tendency towards co-occurrence
+APC	GC	0.35553694194907287	0.5732958918395028	Tendency towards co-occurrence
+APC	ABCA1	0.025396892272321003	1.334374303941531	Tendency towards co-occurrence(Significant)
+APC	PLA2G3	0.26615304380352706	0.6191894375058825	Tendency towards co-occurrence
+MARCO	FGF9	0.5352311641341227	0.4248831939652659	Tendency towards co-occurrence
+MARCO	E2F1	0.5250223168216521	0.20212418409013433	Tendency towards co-occurrence
+MARCO	CIITA	0.2397864996588235	0.5085834703603009	Tendency towards co-occurrence
+MARCO	GC	0.2736456588160479	0.6277919995158182	Tendency towards co-occurrence
+MARCO	ABCA1	0.03743091301026376	1.1119015207867924	Tendency towards co-occurrence(Significant)
+MARCO	PLA2G3	0.0020660885530853117	1.6176684115706157	Tendency towards co-occurrence(Significant)
+FGF9	E2F1	0.8464664814287284	-Infinity	Tendency towards mutual exclusivity
+FGF9	CIITA	0.7123980930631607	-Infinity	Tendency towards mutual exclusivity
+FGF9	GC	0.83457790725117	-Infinity	Tendency towards mutual exclusivity
+FGF9	ABCA1	0.7660200253483078	-Infinity	Tendency towards mutual exclusivity
+FGF9	PLA2G3	0.7660200253483078	-Infinity	Tendency towards mutual exclusivity
+E2F1	CIITA	0.18036478460409822	1.110660627184284	Tendency towards co-occurrence
+E2F1	GC	0.006332074772326768	2.445241393395569	Tendency towards co-occurrence(Significant)
+E2F1	ABCA1	0.12239795279650686	1.3833488508901337	Tendency towards co-occurrence
+E2F1	PLA2G3	0.12239795279650686	1.3833488508901337	Tendency towards co-occurrence
+CIITA	GC	0.4098843423677454	-Infinity	Tendency towards mutual exclusivity
+CIITA	ABCA1	0.02788728255075467	1.4785696372290615	Tendency towards co-occurrence(Significant)
+CIITA	PLA2G3	0.11824402201934281	1.074514737089049	Tendency towards co-occurrence
+GC	ABCA1	0.5038902073054109	0.4448045226681967	Tendency towards co-occurrence
+GC	PLA2G3	0.5038902073054109	0.4448045226681967	Tendency towards co-occurrence
+ABCA1	PLA2G3	0.012053146780888667	1.7813349518921708	Tendency towards co-occurrence(Significant)

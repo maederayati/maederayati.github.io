@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body{
+  font: 300 10px sans-serif;
+}
+
+.nodeText {
+  background: #91877b;
+  text-shadow: 0 11px 10 rgba(255, 255, 255, 1);
+  font: 300 10px sans-serif;
+}
+
+.node {
+    stroke: #fff;
+    stroke-width: 1px;
+    stroke-opacity: 0.6;
+}
+.link {
+    stroke: #555;
+    stroke-opacity: .9;
+}
+.linkArc {
+  fill: none;
+}
+.linkArc2 {
+  fill: none;
+}
+
+.node text {
+  font: 9px helvetica;
+  font: 300 10px sans-serif;
+}
+
+
+.axis .domain {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .25;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+
+.axis .halo {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3px;
+  stroke-linecap: round;
+}
+
+.slider .handle {
+  fill: #666;
+  stroke: #000;
+  stroke-opacity: .25;
+  stroke-width: 1px;
+  cursor: crosshair;
+}
+
+
+h3 {
+    color: #1ABC9C;
+    text-align:center;  
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Helvetica";
+}
+
+/* tooltip */
+.d3-tip {
+  line-height: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "sans-serif";
+  background: rgba(204, 204, 204, 0.96);
+  color: #000;
+  border-radius: 2px;
+}
+
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 2px;
+    background-color: #fff;
+}
+
+#searchHolder {
+  position:absolute;
+  z-index: 1;
+  top: 12px;
+  left: 10px;
+}
+
+ #overviewHolder {
+  position:absolute;
+  z-index: 0;
+  top: 8px;
+  left: 5px;
+  border-radius: 25px;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0, 1);
+  background-color: rgba(240,240,240, 1);
+}
+
+
+.label {
+  font-size: 14px;
+  font-family: "sans-serif";
+  color: #000;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex{
+  flex-basis: 50%;
+}
+
+.flex-1{
+    height:370px;
+    margin-bottom: 20px;
+    flex-basis:100%; 
+    background-color: white;
+    /*border-radius: 25px;*/
+    padding: 20px; 
+    /*border: 1px solid #73AD21;*/
+}
+
+.flex-2{
+    flex-basis: 70%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px; 
+    border: 1px solid #73AD21;
+}
+.flex-3{
+    flex-basis: 20%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px; 
+    border: 1px solid #73AD21;
+}
+.flex-4{
+    flex-basis: 60%;
+    background-color: white;
+}
+
+
+/*//maede*/
+
+
+.div-inline{
+    display:inline-block;
+}
+
+
+
+svg {
+  font: 6px sans-serif;
+  padding: 10px;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #ddd;
+}
+
+.axis path {
+   fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.cell text {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+.form-group{
+float:right;
+width:250px;
+margin-right:100px;
+}
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle {
+  fill-opacity: .5;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+
+
+.nodeText {
+  background: #91877b;
+  text-shadow: 0 11px 10 rgba(255, 255, 255, 1);
+}
+
+.node {
+    stroke: #fff;
+    stroke-width: 1px;
+    stroke-opacity: 0.6;
+}
+.link {
+    stroke: #555;
+    stroke-opacity: .9;
+}
+.linkArc {
+  fill: none;
+}
+.linkArc2 {
+  fill: none;
+}
+
+.node text {
+  font: 9px helvetica;
+}
+
+<!-- For the slider -->
+
+.axis .domain {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .25;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+
+.axis .halo {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3px;
+  stroke-linecap: round;
+}
+
+.slider .handle {
+  fill: #666;
+  stroke: #000;
+  stroke-opacity: .25;
+  stroke-width: 1px;
+  cursor: crosshair;
+}
+
+
+h3 {
+    color: #1ABC9C;
+    text-align:center;  
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Helvetica";
+}
+
+/* tooltip */
+.d3-tip {
+  line-height: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "sans-serif";
+  background: rgba(204, 204, 204, 0.96);
+  color: #000;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+/*.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(200, 220, 245, 0.96);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}*/
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 2px;
+    background-color: #fff;
+}
+
+#searchHolder {
+  position:absolute;
+  z-index: 1;
+  padding: 2px;
+  top: 12px;
+  left: 10px;
+}
+
+ #overviewHolder {
+  position:absolute;
+  padding: 2px;
+  z-index: 0;
+  top: 8px;
+  left: 5px;
+  border: 1px solid rgba(0,0,0, 1);
+  background-color: rgba(240,240,240, 1);
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+.label {
+  font-size: 14px;
+  font-family: "sans-serif";
+  color: #000;
+}
+
+
+
+
+.button {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: gray;
+    width:80px;
+    padding: 1px;
+    height: 18px;
+    background: gainsboro;
+}
+
+.input {
+    background-color: white;
+    border-radius: 25px;
+    padding: 2.5px;
+    border: 1px solid;
+    width:100px;
+    height: 18px;
+}
+
+</style>
+<body>
+<head>
+</head>
+<!-- Success Message -->
+
+
+<div class="flex-container">
+<div class="flex flex-1">
+  <div id="container">
+  <div id="searchHolder"  class="searchHolder">
+  <input class="input" id="search">
+  <button id="allExtendedMutationData" class="button" onclick="searchNode()">Search</button>
+  <label id="progUpdate">
+      <!-- Success Message -->
+  </label>
+
+  </div> 
+   
+
+ <div id="overviewHolder"  class="overviewHolder">
+</div> 
+ 
+</div>
+</div>
+<div class="flex flex-2">
+
+  
+		
+		<div  class="div-inline">
+		<select class="form-control" id="allClinicalData">
+			<option value="0">Skin Cutaneous Melanoma (Yale, Nat Genet 2012)</option>
+			<option value="1">Skin Cutaneous Melanoma (TCGA, Provisional)</option>
+			<option value="2">Skin Cutaneous Melanoma (Broad, Cell 2012)</option>
+			<option value="3">Melanoma (Broad/Dana Farber, Nature 2012)</option>
+		</select>
+		
+    <label id="colorby">  Color By: 
+      <select name="select2" id="select2">
+        <option value="0">AGE at Procurement</option>
+        <option value="0">Gender</option>
+        <option value="0">Primary Site</option>
+        <option value="0">Specimen Site</option>
+        <option value="1">AGE</option>
+        <option value="1">Ethnicity</option>
+        <option value="1">Gender</option>
+        <option value="1">Tumor Site</option>
+        <option value="1">Vital Status</option>
+        <option value="2">Age</option>
+        <option value="2">Age at Procurement</option>
+        <option value="2">Gender</option>
+        <option value="2">Primary Site</option>
+        <option value="3">Age</option>
+        <option value="3">Mean Ploidy</option>
+        <option value="3">Primary Site</option>
+        <option value="3">Tumor Purity</option>
+
+      </select>
+  </label>    
+
+		</div>
+    <div>
+		  <div style="display: inline-block;" id="studyInfo"></div>
+       <div style="display: inline-block;" id="scatter">
+       <h4 align="center"> Patients information for selected gene</h4>
+        <div id="tooltipscatter" class="hidden">
+          <p align="center"><b>Selected Patient ID: </b><span id="patientID"></span></p>
+        </div>
+
+      </div>
+    </div>
+    
+
+
+</div>
+<div class="flex flex-3">
+  <div align="center" id="geneInfo" style="height: 20px"></div>
+  &nbsp;
+  
+  <div align="center" id="chart">
+     <p align="center"> The percent of mutations of this gene in each study</p>
+  </div>
+   <div id="tooltip" class="hidden">
+      <p><b>Study Info</b></p>
+      <p><b>Name: </b><span id="StudyName"></span></p>
+<!--       <p><b>Number of Female in this study: </b><span id="Female"></span></p> 
+      <p><b>Number of Male in this study: </b><span id="Male"></span></p> -->
+    </div>
+ 
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Our scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+
+<script src="dataService.js"></script>
+<script src="ourMain.js"></script>
+<script src="d3pie.min.js"></script>
+
+<script src="jQuery-1.12.3.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<!--<script src="javascripts/d3.v3.min.js"></script>  -->
+<script src="javascripts/fisheye.js"></script>
+
+<script src="myscripts/util.js"></script>
+<script src="myscripts/genomics.js"></script>
+<script src="myscripts/tooltip.js"></script>
+<script src="myscripts/stacking.js"></script>
+<script src="myscripts/sliderRelationship.js"></script>
+<script src="myscripts/streamGraph.js"></script>
+<script src="myscripts/main.js"></script>
+<script src="myscripts/main2.js"></script>
+
+<script type='text/javascript' src="//code.jquery.com/ui/1.11.0/jquery-ui.min.js"> </script>
+<link href="styles/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<script src="myscripts/searchBox.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+</body>

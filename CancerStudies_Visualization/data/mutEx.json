@@ -1,0 +1,4354 @@
+[
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TG",
+    "logOddsRatio":"1.062054692934312",
+    "pValue":"0.1093286163078594",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TLR7",
+    "logOddsRatio":"1.2039728043259361",
+    "pValue":"0.19841657023530174",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"1.8787708462176849",
+    "pValue":"0.0048085967173752036",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"TP53",
+    "logOddsRatio":"1.9785353763713898",
+    "pValue":"0.0006605025518695716",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"GLI2",
+    "logOddsRatio":"2.272125885509337",
+    "pValue":"0.0005975628702381142",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.252762968495368",
+    "pValue":"0.11343900212435137",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TPO",
+    "logOddsRatio":"0.4054651081081644",
+    "pValue":"0.39682004821192907",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5412482740681054",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"APC",
+    "logOddsRatio":"-0.6378845018848958",
+    "pValue":"0.47168275397095694",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.3652409519220583",
+    "pValue":"0.03723749288598791",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.44628710262841953",
+    "pValue":"0.5373946375487846",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.916922612182061",
+    "pValue":"0.09434694735158258",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.44628710262841953",
+    "pValue":"0.5373946375487846",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GC",
+    "logOddsRatio":"0.21309321546070836",
+    "pValue":"0.6051902510114525",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.21309321546070836",
+    "pValue":"0.6051902510114525",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.1592369104845446",
+    "pValue":"0.3676505312869444",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"TLR7",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.4702299011581429",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"0.2772107725844855",
+    "pValue":"0.5043302890978556",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TP53",
+    "logOddsRatio":"0.6166071034376109",
+    "pValue":"0.2600066719569959",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"GLI2",
+    "logOddsRatio":"-0.5866039326530696",
+    "pValue":"0.49566971090223044",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"NOD2",
+    "logOddsRatio":"2.0992441689760155",
+    "pValue":"0.010388931856463633",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TPO",
+    "logOddsRatio":"0.6790624406782063",
+    "pValue":"0.2743286207173022",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.9808292530117262",
+    "pValue":"0.3925413841121463",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"APC",
+    "logOddsRatio":"-0.398496438792071",
+    "pValue":"0.5824433956820453",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.6843392206072183",
+    "pValue":"0.0152432908827088",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.6834852696482084",
+    "pValue":"0.4652287398594251",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.9808292530117262",
+    "pValue":"0.3925413841121463",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.6834852696482084",
+    "pValue":"0.4652287398594251",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"GC",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6892318911035217",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TP53",
+    "logOddsRatio":"-0.1678808726391603",
+    "pValue":"0.6802883688777344",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"GLI2",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"NOD2",
+    "logOddsRatio":"0.9839493803479697",
+    "pValue":"0.3775158729262065",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"TPO",
+    "logOddsRatio":"0.28768207245178085",
+    "pValue":"0.5812623874363446",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8137735553669291",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"APC",
+    "logOddsRatio":"1.6582280766035324",
+    "pValue":"0.10833354770508105",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.36662527479190044",
+    "pValue":"0.5561381306825822",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7720415781687214",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"E2F1",
+    "logOddsRatio":"2.0104486701928845",
+    "pValue":"0.1862264446330396",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7720415781687214",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"GC",
+    "logOddsRatio":"1.4816045409242156",
+    "pValue":"0.2678916069090321",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7321083930909213",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8573685672615547",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"TP53",
+    "logOddsRatio":"1.378914253822268",
+    "pValue":"0.02622617689937814",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"GLI2",
+    "logOddsRatio":"1.355835153635182",
+    "pValue":"0.05736395051547108",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"NOD2",
+    "logOddsRatio":"2.0992441689760155",
+    "pValue":"0.010388931856463633",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"TPO",
+    "logOddsRatio":"0.6790624406782063",
+    "pValue":"0.2743286207173022",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.9808292530117262",
+    "pValue":"0.3925413841121463",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"APC",
+    "logOddsRatio":"1.0884599172040916",
+    "pValue":"0.14434861974565258",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.7696872576822797",
+    "pValue":"0.23977077404910827",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.6834852696482084",
+    "pValue":"0.4652287398594251",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.9808292530117262",
+    "pValue":"0.3925413841121463",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.754019141245208",
+    "pValue":"0.10179196112307329",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"GC",
+    "logOddsRatio":"3.044522437723423",
+    "pValue":"0.0015335394026903865",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.4702299011581429",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.3958638121360414",
+    "pValue":"0.31076810889644246",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"GLI2",
+    "logOddsRatio":"0.17089286097033182",
+    "pValue":"0.5221353530295654",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"NOD2",
+    "logOddsRatio":"0.2135741002980591",
+    "pValue":"0.5403063038809326",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"TPO",
+    "logOddsRatio":"0.7870790003941488",
+    "pValue":"0.15820127254562208",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.3642221495741153",
+    "pValue":"0.5747962723400488",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"APC",
+    "logOddsRatio":"-0.17662353567931688",
+    "pValue":"0.5923659115049407",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.2499579175677593",
+    "pValue":"0.03799347829164056",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.1038893457689534",
+    "pValue":"0.24044804204326017",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.3642221495741153",
+    "pValue":"0.5747962723400488",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.06595796779179737",
+    "pValue":"0.6583833299142232",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"GC",
+    "logOddsRatio":"0.8056251639866356",
+    "pValue":"0.3197116311223094",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-0.1678808726391603",
+    "pValue":"0.680288368877889",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5281477880409028",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.5240780634829436",
+    "pValue":"0.06862084071942816",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"TPO",
+    "logOddsRatio":"0.6790624406782063",
+    "pValue":"0.2743286207173022",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6074586158878952",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"APC",
+    "logOddsRatio":"1.0884599172040916",
+    "pValue":"0.14434861974565258",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.2501621867953105",
+    "pValue":"0.07268055401829508",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.6834852696482084",
+    "pValue":"0.4652287398594251",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"E2F1",
+    "logOddsRatio":"2.169053700369523",
+    "pValue":"0.06544828324942807",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.6834852696482084",
+    "pValue":"0.4652287398594251",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"GC",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.450585543388634",
+    "pValue":"0.5297700988418858",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"2.8716796248840124",
+    "pValue":"0.03507535245503013",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"TPO",
+    "logOddsRatio":"1.3370233121131079",
+    "pValue":"0.09732072882164287",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.5132940518811981",
+    "pValue":"0.26892051119373656",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"APC",
+    "logOddsRatio":"0.13778370236305296",
+    "pValue":"0.6226010098083552",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.7774075241776851",
+    "pValue":"0.30887306591971564",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6748426050520745",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"E2F1",
+    "logOddsRatio":"4.0163830207523885",
+    "pValue":"0.001122253075484355",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.2163953243244932",
+    "pValue":"0.3251573949480665",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"GC",
+    "logOddsRatio":"2.043073897508961",
+    "pValue":"0.06336500505717878",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6224841270738519",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.927891643552635",
+    "pValue":"0.20855614973261724",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.995671658614377",
+    "pValue":"0.08425961784070361",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"APC",
+    "logOddsRatio":"1.3966571481554373",
+    "pValue":"0.05305446866738298",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.5813557745718286",
+    "pValue":"0.3148075937616799",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.5207759546191588",
+    "pValue":"0.5142643694262078",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.8183103235139513",
+    "pValue":"0.4373161507214579",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.5207759546191588",
+    "pValue":"0.5142643694262078",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"GC",
+    "logOddsRatio":"2.0600234558227344",
+    "pValue":"0.030021268956505694",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.28768207245178085",
+    "pValue":"0.5812623874364108",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"2.6984807500860595",
+    "pValue":"0.04569761789013597",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"APC",
+    "logOddsRatio":"1.166931532645587",
+    "pValue":"0.34514626133408266",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5847498825837327",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8428368966301313",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8726718310240545",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8428368966301313",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"GC",
+    "logOddsRatio":"2.0104486701928845",
+    "pValue":"0.1862264446330396",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8137735553669291",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9032918952704871",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"MARCO",
+    "logOddsRatio":"-0.48307571081308825",
+    "pValue":"0.5443396221327231",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.8697707162392622",
+    "pValue":"0.4123107473510788",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.654853738665923",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.8697707162392622",
+    "pValue":"0.4123107473510788",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"GC",
+    "logOddsRatio":"1.6582280766035324",
+    "pValue":"0.10833354770508105",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.6370577139089018",
+    "pValue":"0.473106187280291",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.5817863811035902",
+    "pValue":"0.2710118758247147",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.5996211225491218",
+    "pValue":"0.49021805108095945",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.8970593699462676",
+    "pValue":"0.41525011741633533",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.6643145226599345",
+    "pValue":"0.11537838275806944",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.4438618693175162",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.366876275262789",
+    "pValue":"0.16061765307290277",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6699076324745231",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8428368966300355",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8068182258338116",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7720415781687214",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"FGF9",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.713797927758343",
+    "pValue":"0.22795842183136034",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8801305646225439",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"CIITA",
+    "logOddsRatio":"2.24248116892434",
+    "pValue":"0.15716310336995304",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"GC",
+    "logOddsRatio":"2.0104486701928845",
+    "pValue":"0.1862264446330396",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8137735553669291",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9032918952704871",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CIITA",
+    "geneB":"GC",
+    "logOddsRatio":"1.713797927758343",
+    "pValue":"0.22795842183136034",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7720415781687214",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CIITA",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"2.6567569067146595",
+    "pValue":"0.11986943537747106",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7321083930909213",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8573685672615547",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"ABCA1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8573685672615547",
+    "source":"skcm_broad"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TG",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TLR7",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TP53",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.16000000000000197",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"TLR7",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7700000000000067",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"TP53",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5782608695652208",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"NOD2",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.12000000000000076",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TPO",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.12000000000000076",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5782608695652208",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7700000000000067",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7700000000000067",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7700000000000067",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8800000000000171",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TP53",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"E2F1",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.08000000000000083",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"TP53",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7000000000000031",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7000000000000031",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.843333333333341",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"GC",
+    "logOddsRatio":"3.091042453358316",
+    "pValue":"0.15666666666666698",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.843333333333341",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.4731225296442584",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6999999999999931",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6999999999999931",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6999999999999931",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"MARCO",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.04000000000000035",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.840000000000001",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.839999999999989",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"FGF9",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.1599999999999997",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6999999999999931",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"CIITA",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.1599999999999997",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6999999999999931",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.8971199848858813",
+    "pValue":"0.2999999999999968",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.1599999999999997",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"MARCO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"FGF9",
+    "geneB":"ABCA1",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.08000000000000083",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9600000000000114",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.843333333333341",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.843333333333341",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CIITA",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.04000000000000035",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.843333333333341",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"ABCA1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9200000000000014",
+    "source":"skcm_broad_dfarber"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"TG",
+    "logOddsRatio":"0.7872197364439202",
+    "pValue":"0.011309414758845442",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TLR7",
+    "logOddsRatio":"0.6090640633494039",
+    "pValue":"0.17174535714508693",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"0.6113094025845244",
+    "pValue":"0.06064297695562211",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"TP53",
+    "logOddsRatio":"1.055289606680811",
+    "pValue":"0.0011025159466017918",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GLI2",
+    "logOddsRatio":"0.5157396385684196",
+    "pValue":"0.1378972781507014",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.6521490305271502",
+    "pValue":"0.00014404022763225575",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"TPO",
+    "logOddsRatio":"1.3981288187668934",
+    "pValue":"0.00004601561876359656",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.6815595653875575",
+    "pValue":"0.14296656224744997",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"APC",
+    "logOddsRatio":"0.9480782493110399",
+    "pValue":"0.01446121940031161",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.9257694758286988",
+    "pValue":"0.005719817144670168",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.9281713247179317",
+    "pValue":"0.04572525010803191",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.5564453822935902",
+    "pValue":"0.011826092259807536",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.637608789400797",
+    "pValue":"0.00027435666111972213",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GC",
+    "logOddsRatio":"0.703509967595492",
+    "pValue":"0.20426782351505463",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.9521562655522662",
+    "pValue":"0.00008992202945392465",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.7591579424810477",
+    "pValue":"0.11670339627439368",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TLR7",
+    "logOddsRatio":"0.9336824745860242",
+    "pValue":"0.05304675068634112",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"0.7033650699431375",
+    "pValue":"0.037109646403057125",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"TP53",
+    "logOddsRatio":"0.7320625968096189",
+    "pValue":"0.02417251717205993",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"GLI2",
+    "logOddsRatio":"1.452252328911688",
+    "pValue":"0.0001267172480154749",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.2039728043259361",
+    "pValue":"0.006718658719746518",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"TPO",
+    "logOddsRatio":"0.6724870428496363",
+    "pValue":"0.049670298237075826",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.2459370034249682",
+    "pValue":"0.0120733565547802",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"APC",
+    "logOddsRatio":"0.38227049112769607",
+    "pValue":"0.2465334986037504",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.133791795789283",
+    "pValue":"0.0008860654856708555",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.38249141242335644",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.2797224582757671",
+    "pValue":"0.04016477555892693",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.1482678791139707",
+    "pValue":"0.012452652985648465",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"GC",
+    "logOddsRatio":"0.3687330988394344",
+    "pValue":"0.40024217795608535",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.0947060337010446",
+    "pValue":"0.03085386669167206",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.5708860664483844",
+    "pValue":"0.0018571901605234343",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR7",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"1.4703197699309585",
+    "pValue":"0.003867841119281564",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"TP53",
+    "logOddsRatio":"0.5501370439808788",
+    "pValue":"0.22251367233336186",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"GLI2",
+    "logOddsRatio":"0.3958956570920137",
+    "pValue":"0.37160562527148944",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"NOD2",
+    "logOddsRatio":"0.8534898306351248",
+    "pValue":"0.17760636396940183",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR7",
+    "geneB":"TPO",
+    "logOddsRatio":"1.3168658546881278",
+    "pValue":"0.01149490094476825",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.6543941942627121",
+    "pValue":"0.3183273730666169",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR7",
+    "geneB":"APC",
+    "logOddsRatio":"1.1945535824094444",
+    "pValue":"0.03854481594438349",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"MARCO",
+    "logOddsRatio":"-0.4695826652319416",
+    "pValue":"0.4078219182502305",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7441971711532204",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.48861005963625403",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.9506154744152298",
+    "pValue":"0.1488760124374079",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR7",
+    "geneB":"GC",
+    "logOddsRatio":"1.725738368130261",
+    "pValue":"0.031701131816395764",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.2377701839092266",
+    "pValue":"0.08582792606344733",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.7145875117978148",
+    "pValue":"0.296222844829524",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"TP53",
+    "logOddsRatio":"1.3290022485030866",
+    "pValue":"0.0001562726811335576",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"GLI2",
+    "logOddsRatio":"0.755219609202323",
+    "pValue":"0.060699176007969514",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.3301240896528361",
+    "pValue":"0.004554053952339059",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"TPO",
+    "logOddsRatio":"1.4039939382192914",
+    "pValue":"0.0001591212294515476",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.0597724553518457",
+    "pValue":"0.04375218285059312",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"APC",
+    "logOddsRatio":"1.2111345973535559",
+    "pValue":"0.0038746994344854876",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.4681145056729409",
+    "pValue":"0.15964338865854144",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.4521075796894625",
+    "pValue":"0.14306937094843045",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.7602864833975738",
+    "pValue":"0.22341132978972972",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.2341466246585406",
+    "pValue":"0.4320761741895981",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"GC",
+    "logOddsRatio":"1.0690219650471873",
+    "pValue":"0.0901924141358243",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.3971256419564635",
+    "pValue":"0.008779697011118127",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.5385235756824917",
+    "pValue":"0.26136806146183167",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"GLI2",
+    "logOddsRatio":"1.0471429534386294",
+    "pValue":"0.007695193964233458",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.8870696490323797",
+    "pValue":"0.00002147466508934193",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"TPO",
+    "logOddsRatio":"1.074360030129506",
+    "pValue":"0.002926975113670245",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.30830135965451666",
+    "pValue":"0.38925955656892725",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"APC",
+    "logOddsRatio":"1.4767719460860067",
+    "pValue":"0.00022402662501722325",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.9454039679493829",
+    "pValue":"0.0071224001324505775",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.29423947299793995",
+    "pValue":"0.5779717963791028",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.6011647908482951",
+    "pValue":"0.2892850103909689",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.0784095813505903",
+    "pValue":"0.022000961850284714",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"GC",
+    "logOddsRatio":"-0.830864431117146",
+    "pValue":"0.36460159198619346",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.2262713530483915",
+    "pValue":"0.01817787779810774",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.9692985319877905",
+    "pValue":"0.06074751448320021",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"NOD2",
+    "logOddsRatio":"0.8017491901419427",
+    "pValue":"0.11619806792947172",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"TPO",
+    "logOddsRatio":"1.0095482253607377",
+    "pValue":"0.015311650536587824",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"TLR3",
+    "logOddsRatio":"-0.037740327982847086",
+    "pValue":"0.6586664573657429",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"APC",
+    "logOddsRatio":"-0.6931471805599453",
+    "pValue":"0.27104289493267236",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.0549130282021657",
+    "pValue":"0.009346632824497858",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.5780425627933964",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.5550438403683016",
+    "pValue":"0.026188535863929267",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.1786549963416462",
+    "pValue":"0.027016326629544875",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"GC",
+    "logOddsRatio":"1.8080403548321926",
+    "pValue":"0.00628697861482556",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.2296152349392737",
+    "pValue":"0.035464459104957",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.5199759828440724",
+    "pValue":"0.008094526206752148",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"TPO",
+    "logOddsRatio":"1.9859154836690125",
+    "pValue":"0.000015595239397674243",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.9499834744429492",
+    "pValue":"0.0013583846924853813",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"APC",
+    "logOddsRatio":"1.4186596456219223",
+    "pValue":"0.0066979990562416065",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.4961092271270973",
+    "pValue":"0.001220814583165466",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.2178757094949273",
+    "pValue":"0.30819040020202315",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.0176432261344426",
+    "pValue":"0.20481214791915553",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"CIITA",
+    "logOddsRatio":"2.203378442910598",
+    "pValue":"0.00007108837678636831",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.37944662957522257",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"2.0271355889778992",
+    "pValue":"0.0009989694768029259",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"NOD2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"2.3156571745613985",
+    "pValue":"0.0001093530918870505",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"TLR3",
+    "logOddsRatio":"0.8604993722457396",
+    "pValue":"0.10353985366875144",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"APC",
+    "logOddsRatio":"1.133098464739279",
+    "pValue":"0.008156315070173316",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.5549504286749287",
+    "pValue":"0.11606829123897715",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.5247952692800213",
+    "pValue":"0.12881052751201363",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.6485308382253778",
+    "pValue":"0.01199813508898901",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.1128575438041586",
+    "pValue":"0.024956529554069226",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"GC",
+    "logOddsRatio":"1.5117994428701844",
+    "pValue":"0.01758741909519053",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.215988241070347",
+    "pValue":"0.02580653303356422",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.215988241070347",
+    "pValue":"0.02580653303356422",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"APC",
+    "logOddsRatio":"0.9386202082722438",
+    "pValue":"0.1102324467662132",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.44628710262841953",
+    "pValue":"0.3081645934775724",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"FGF9",
+    "logOddsRatio":"1.5099083170870673",
+    "pValue":"0.24495447358253747",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.3232362251527536",
+    "pValue":"0.1335404697018972",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.010836677785724",
+    "pValue":"0.13322986925293914",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"GC",
+    "logOddsRatio":"0.38776553100876343",
+    "pValue":"0.5223699417041232",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR3",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.713797927758343",
+    "pValue":"0.014564325176235017",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR3",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.713797927758343",
+    "pValue":"0.014564325176235017",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.4700036292457356",
+    "pValue":"0.20833682863074748",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.8834028650293198",
+    "pValue":"0.39503404867958847",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"APC",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.656690797284646",
+    "pValue":"0.019642775595899768",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.33135713595444244",
+    "pValue":"0.4047187498732516",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"GC",
+    "logOddsRatio":"0.5732958918395028",
+    "pValue":"0.35553694194907287",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"APC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.334374303941531",
+    "pValue":"0.025396892272321003",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.6191894375058825",
+    "pValue":"0.26615304380352706",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"FGF9",
+    "logOddsRatio":"0.4248831939652659",
+    "pValue":"0.5352311641341227",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"E2F1",
+    "logOddsRatio":"0.20212418409013433",
+    "pValue":"0.5250223168216521",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"CIITA",
+    "logOddsRatio":"0.5085834703603009",
+    "pValue":"0.2397864996588235",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"GC",
+    "logOddsRatio":"0.6277919995158182",
+    "pValue":"0.2736456588160479",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"MARCO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.1119015207867924",
+    "pValue":"0.03743091301026376",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"MARCO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.6176684115706157",
+    "pValue":"0.0020660885530853117",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8464664814287284",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7123980930631607",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.83457790725117",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7660200253483078",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7660200253483078",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"CIITA",
+    "logOddsRatio":"1.110660627184284",
+    "pValue":"0.18036478460409822",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"E2F1",
+    "geneB":"GC",
+    "logOddsRatio":"2.445241393395569",
+    "pValue":"0.006332074772326768",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.3833488508901337",
+    "pValue":"0.12239795279650686",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.3833488508901337",
+    "pValue":"0.12239795279650686",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.4098843423677454",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CIITA",
+    "geneB":"ABCA1",
+    "logOddsRatio":"1.4785696372290615",
+    "pValue":"0.02788728255075467",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CIITA",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.074514737089049",
+    "pValue":"0.11824402201934281",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"0.4448045226681967",
+    "pValue":"0.5038902073054109",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"0.4448045226681967",
+    "pValue":"0.5038902073054109",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"ABCA1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"1.7813349518921708",
+    "pValue":"0.012053146780888667",
+    "source":"skcm_tcga"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TG",
+    "logOddsRatio":"1.6486586255873816",
+    "pValue":"0.11397275711301418",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"TLR7",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7563155945178979",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"1.8845412026790211",
+    "pValue":"0.08527551847699409",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TP53",
+    "logOddsRatio":"1.7272209480904839",
+    "pValue":"0.0532784300298286",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"GLI2",
+    "logOddsRatio":"2.46080909820894",
+    "pValue":"0.16898656898658126",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.3375041969504586",
+    "pValue":"0.31244036862010727",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TPO",
+    "logOddsRatio":"1.286210902562908",
+    "pValue":"0.17802291924941627",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.75539182505718",
+    "pValue":"0.24368440548217868",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"APC",
+    "logOddsRatio":"2.184802057337662",
+    "pValue":"0.05954487202065891",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.286210902562908",
+    "pValue":"0.17802291924941627",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"CFTR",
+    "geneB":"FGF9",
+    "logOddsRatio":"2.46080909820894",
+    "pValue":"0.16898656898658126",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6243357572300274",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9120879120879613",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"CFTR",
+    "geneB":"GC",
+    "logOddsRatio":"3.190476350346503",
+    "pValue":"0.004223982139518948",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8310134310134133",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CFTR",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9120879120879613",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TLR7",
+    "logOddsRatio":"1.9218125974762528",
+    "pValue":"0.21567271679631655",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6098163210153681",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"TP53",
+    "logOddsRatio":"2.6855773452501515",
+    "pValue":"0.0035347225939752302",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"GLI2",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.005128205128205383",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7219376129489098",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TPO",
+    "logOddsRatio":"1.4816045409242156",
+    "pValue":"0.14094124643360456",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.9218125974762528",
+    "pValue":"0.21567271679631655",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"APC",
+    "logOddsRatio":"1.2039728043259361",
+    "pValue":"0.336149321426372",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"MARCO",
+    "logOddsRatio":"2.277267285009756",
+    "pValue":"0.01958304449093933",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"FGF9",
+    "logOddsRatio":"2.627081138568543",
+    "pValue":"0.14871794871795388",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TG",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.2039728043259361",
+    "pValue":"0.336149321426372",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.923076923076905",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TG",
+    "geneB":"GC",
+    "logOddsRatio":"2.379546134130174",
+    "pValue":"0.04571464955037816",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8512820512819488",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TG",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.923076923076905",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GPRC6A",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8130221838086811",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"TP53",
+    "logOddsRatio":"1.3609765531356006",
+    "pValue":"0.32370251471379724",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9347985347984524",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8724945466517775",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"TPO",
+    "logOddsRatio":"1.6094379124341003",
+    "pValue":"0.2710211137177171",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9032884718278591",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"APC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.842408527801906",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR7",
+    "geneB":"MARCO",
+    "logOddsRatio":"1.6094379124341003",
+    "pValue":"0.2710211137177171",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9347985347984524",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.842408527801906",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR7",
+    "geneB":"CIITA",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.03296703296703284",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.842408527801906",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9347985347984524",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR7",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9670329670330484",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"TP53",
+    "logOddsRatio":"1.4403615823901663",
+    "pValue":"0.15245878497909374",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"GLI2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8717948717947606",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"NOD2",
+    "logOddsRatio":"1.698669046162043",
+    "pValue":"0.24241114690551782",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"TPO",
+    "logOddsRatio":"0.6549259677397475",
+    "pValue":"0.4746763017759764",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"TLR3",
+    "logOddsRatio":"2.1162555148025524",
+    "pValue":"0.18697781619128404",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"APC",
+    "logOddsRatio":"1.3987168811184478",
+    "pValue":"0.29465865401548413",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"MARCO",
+    "logOddsRatio":"0.6549259677397475",
+    "pValue":"0.4746763017759764",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8717948717947606",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7053413459845321",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9340659340658715",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GPRC6A",
+    "geneB":"GC",
+    "logOddsRatio":"2.614959778036198",
+    "pValue":"0.033421118465672896",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GPRC6A",
+    "geneB":"ABCA1",
+    "logOddsRatio":"2.8213788864092133",
+    "pValue":"0.12820512820511432",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GPRC6A",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9340659340658715",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"GLI2",
+    "logOddsRatio":"2.066862759472976",
+    "pValue":"0.22832722832721003",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"NOD2",
+    "logOddsRatio":"0.9426080401915286",
+    "pValue":"0.40823970037449986",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"TPO",
+    "logOddsRatio":"1.5314763709643886",
+    "pValue":"0.07436567771571267",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"TLR3",
+    "logOddsRatio":"2.8653704556907473",
+    "pValue":"0.037576655554184074",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"APC",
+    "logOddsRatio":"1.7411157364093",
+    "pValue":"0.10895862929957915",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TP53",
+    "geneB":"MARCO",
+    "logOddsRatio":"2.762117422372486",
+    "pValue":"0.000982055768841655",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"FGF9",
+    "logOddsRatio":"2.066862759472976",
+    "pValue":"0.22832722832721003",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"E2F1",
+    "logOddsRatio":"1.7411157364093",
+    "pValue":"0.10895862929957915",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TP53",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8791208791208743",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"GC",
+    "logOddsRatio":"1.7411157364093",
+    "pValue":"0.10895862929957915",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"ABCA1",
+    "logOddsRatio":"2.066862759472976",
+    "pValue":"0.22832722832721003",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TP53",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.12087912087910976",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"NOD2",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9135531135531573",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"TPO",
+    "logOddsRatio":"2.315007612992603",
+    "pValue":"0.18901098901099528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"TLR3",
+    "logOddsRatio":"3.7727609380946383",
+    "pValue":"0.06520146520146415",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"APC",
+    "logOddsRatio":"3.056356895370426",
+    "pValue":"0.1074481074481072",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"MARCO",
+    "logOddsRatio":"2.315007612992603",
+    "pValue":"0.18901098901099528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"GLI2",
+    "geneB":"FGF9",
+    "logOddsRatio":"4.477336814478207",
+    "pValue":"0.043711843711837374",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8925518925519926",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"GLI2",
+    "geneB":"GC",
+    "logOddsRatio":"3.056356895370426",
+    "pValue":"0.1074481074481072",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9562881562880413",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GLI2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"TPO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6544242274578594",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"TLR3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8724945466517775",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"APC",
+    "logOddsRatio":"1.9339339580085977",
+    "pValue":"0.20545559309605205",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"MARCO",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.6544242274578594",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"FGF9",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9135531135530535",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7945444069040464",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9560439560439393",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"NOD2",
+    "geneB":"GC",
+    "logOddsRatio":"1.9339339580085977",
+    "pValue":"0.20545559309605205",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9135531135530535",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"NOD2",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9560439560439393",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"TLR3",
+    "logOddsRatio":"1.6094379124341003",
+    "pValue":"0.2710211137177479",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"APC",
+    "logOddsRatio":"2.995732273553991",
+    "pValue":"0.0062235323761873",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"MARCO",
+    "logOddsRatio":"3.193558016883911",
+    "pValue":"0.00029082697997334173",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"FGF9",
+    "logOddsRatio":"2.315007612992603",
+    "pValue":"0.18901098901099528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TPO",
+    "geneB":"E2F1",
+    "logOddsRatio":"2.995732273553991",
+    "pValue":"0.0062235323761873",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"CIITA",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.0989010989011039",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"GC",
+    "logOddsRatio":"0.8909729238898652",
+    "pValue":"0.41327483055503894",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TPO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8109890109890795",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TPO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.0989010989011039",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR3",
+    "geneB":"APC",
+    "logOddsRatio":"4.037186148382152",
+    "pValue":"0.007161377947895528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"TLR3",
+    "geneB":"MARCO",
+    "logOddsRatio":"3.1416861861770706",
+    "pValue":"0.02499073959748035",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"FGF9",
+    "logOddsRatio":"3.7727609380946383",
+    "pValue":"0.06520146520146415",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.842408527801906",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9670329670330484",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"GC",
+    "logOddsRatio":"2.3513752571634776",
+    "pValue":"0.15759147219822797",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"TLR3",
+    "geneB":"ABCA1",
+    "logOddsRatio":"3.7727609380946383",
+    "pValue":"0.06520146520146415",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"TLR3",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9670329670330484",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"APC",
+    "geneB":"MARCO",
+    "logOddsRatio":"2.995732273553991",
+    "pValue":"0.006223532376186592",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"FGF9",
+    "logOddsRatio":"3.056356895370426",
+    "pValue":"0.10744810744809499",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"APC",
+    "geneB":"E2F1",
+    "logOddsRatio":"2.9147632110203237",
+    "pValue":"0.022801706451451992",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9450549450549383",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"APC",
+    "geneB":"GC",
+    "logOddsRatio":"2.9147632110203237",
+    "pValue":"0.022801706451451992",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"APC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8925518925518912",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"APC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.054945054945054236",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"FGF9",
+    "logOddsRatio":"2.315007612992603",
+    "pValue":"0.18901098901099528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence(Significant)",
+    "geneA":"MARCO",
+    "geneB":"E2F1",
+    "logOddsRatio":"2.995732273553991",
+    "pValue":"0.0062235323761873",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"CIITA",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.0989010989011039",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"GC",
+    "logOddsRatio":"2.018072595303544",
+    "pValue":"0.07477954049051348",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"ABCA1",
+    "logOddsRatio":"2.315007612992603",
+    "pValue":"0.18901098901099528",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"MARCO",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.0989010989011039",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"E2F1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8925518925519926",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"FGF9",
+    "geneB":"GC",
+    "logOddsRatio":"3.056356895370426",
+    "pValue":"0.1074481074481072",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9562881562880413",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"FGF9",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"CIITA",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9450549450549383",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"E2F1",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.7488809352427968",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"ABCA1",
+    "logOddsRatio":"3.056356895370426",
+    "pValue":"0.10744810744809499",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards co-occurrence",
+    "geneA":"E2F1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"Infinity",
+    "pValue":"0.054945054945054236",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"GC",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9450549450550457",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"CIITA",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9890109890109172",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"ABCA1",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.8925518925518912",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"GC",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9450549450549383",
+    "source":"skcm_yale"
+  },
+  {
+    "association":"Tendency towards mutual exclusivity",
+    "geneA":"ABCA1",
+    "geneB":"PLA2G3",
+    "logOddsRatio":"-Infinity",
+    "pValue":"0.9780219780219295",
+    "source":"skcm_yale"
+  }
+]

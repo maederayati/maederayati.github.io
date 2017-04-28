@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+  font: 300 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+svg{
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003366;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+.flex{
+  flex-basis: 50%;
+}
+
+.flex-1{
+    height:370px;
+    margin-bottom: 20px;
+    flex-basis:100%; 
+    background-color: white;
+    /*border-radius: 25px;*/
+    padding: 20px; 
+    /*border: 1px solid #73AD21;*/
+}
+
+.flex-2{
+    flex-basis: 70%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px; 
+    border: 1px solid #73AD21;
+}
+.flex-3{
+    flex-basis: 20%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px; 
+    border: 1px solid #73AD21;
+}
+.flex-4{
+    flex-basis: 60%;
+    background-color: white;
+}
+
+
+</style>
+<body>
+<ul class="tab">
+  
+</ul>
+ <body onload="legendDemo()">
+ <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="datamaps.world.min.js"></script>
+<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+<div class="flex flex-2">
+  
+
+<div align="center">
+<a href="genes.html">
+<img src="melanoma.jpg" title="Melanoma gene Information" style="auto width:128px;height:128px;">
+</a>
+</div>
+<div align="center">
+      <p>Melanoma is the least common but the most deadly skin cancer, accounting for only about 1% of all cases, but the vast majority of skin cancer <b>death</b>.</p>
+      <p>In 2016, it is estimated that there will be <b>76,380</b> new cases of melanoma in the United States and <b>10,130 deaths</b> from the disease.</p>
+</div>
+<div id="vizcontainer" style="position: relative; width: 600px; height: 5px; margin: 0 auto" >
+<svg></svg>
+</div>
+<script src="legend.js"></script>
+
+<div id="container" style="position: relative; width: 500px; height: 400px; margin: 0 auto"></div>
+<div>
+  <p align="center" style="font-size: 10px"><b>Reference</b></p>
+    <p align="center" style="font-size: 10px">SEER (Surveillance, Epidemiology and End Results) data. seer.cancer.gov.</p>
+    <p align="center" style="font-size: 10px">American Cancer Society. Cancer Facts and Figures 2016. Atlanta: American Cancer Society; 2016.</p>
+  </div>
+</div>
+<script>
+
+
+
+
+d3.csv("Melanoma.csv", function(error, weblog) {
+
+ 
+  blogs =  d3.keys(weblog[0]).slice(0).map(function(id) {
+    return {
+      id: id,
+      values: weblog.map(function(d) {
+        return {rank: d.Rank, location: d.Country, count:d.standardised};
+      })
+    };
+  });
+
+blogs = blogs[0];
+
+var topLocation = [];
+
+  for(var i = 0 ; i < blogs.values.length; i++){
+    topLocation.push(blogs.values[i].location);
+  }
+ 
+
+  
+  var countries = Datamap.prototype.worldTopo.objects.world.geometries;
+ 
+
+var freData = {cnt:[]};    
+d3.csv("long.csv", function(error, long) {
+   for(var j=0; j<long.length;j++){
+  for(l in topLocation){
+    if(long[j].name.toLowerCase() == topLocation[l].toLowerCase()){
+      for (var i = 0; i< countries.length; i++){
+        if(long[j].name.toLowerCase() == topLocation[l].toLowerCase()){
+          for (var i = 0; i< countries.length; i++){
+              if(topLocation[l].toLowerCase() == countries[i].properties.name.toLowerCase()|| 
+                  topLocation[l].toLowerCase() == "russia" || topLocation[l].toLowerCase() == "usa" || 
+                  topLocation[l].toLowerCase() == "baghdad" ||
+                  topLocation[l].toLowerCase() == "california" ||
+                  topLocation[l].toLowerCase() == "england" || topLocation[l].toLowerCase() == "europe" ||
+                  topLocation[l].toLowerCase() == "florida" || topLocation[l].toLowerCase() == "london" ||
+                  topLocation[l].toLowerCase() == "middle east" || topLocation[l].toLowerCase() == "new york"||
+                  topLocation[l].toLowerCase() == "paris" || topLocation[l].toLowerCase() == "sydney" ||
+                  topLocation[l].toLowerCase() == "texas" || topLocation[l].toLowerCase() == "washington" ||
+                  topLocation[l].toLowerCase() == "africa" || topLocation[l].toLowerCase()== "wisconsin"||
+                  topLocation[l].toLowerCase() == "wall street" || topLocation[l].toLowerCase()== "virginia"||
+                  topLocation[l].toLowerCase() == "soviet union" || topLocation[l].toLowerCase()== "south carolina" ||
+                  topLocation[l].toLowerCase() == "san francisco" || topLocation[l].toLowerCase()== "pentagon" || 
+                  topLocation[l].toLowerCase() == "pennsylvania" || topLocation[l].toLowerCase()== "ohio" || 
+                  topLocation[l].toLowerCase() == "north carolina" || topLocation[l].toLowerCase()== "new jersey" || 
+                  topLocation[l].toLowerCase() == "new hampshire" || topLocation[l].toLowerCase()== "michigan" || 
+                  topLocation[l].toLowerCase() == "massachusetts" || topLocation[l].toLowerCase()== "los angeles" || 
+                  topLocation[l].toLowerCase() == "iowa" || topLocation[l].toLowerCase()== "illinois" || 
+                  topLocation[l].toLowerCase() == "d.c." || topLocation[l].toLowerCase()== "colorado" || 
+                  topLocation[l].toLowerCase() == "chicago" || topLocation[l].toLowerCase()== "capitol hill" || 
+                  topLocation[l].toLowerCase() == "arizona" || topLocation[l].toLowerCase()== "alaska" || topLocation[l].toLowerCase()== "iran"){
+                  if(blogs.values[l].count<=225){
+                       freData.cnt.push({
+                        name: topLocation[l],
+                        freq: blogs.values[l].count,
+                        fillKey: 'first',
+                         radius: Math.sqrt(blogs.values[l].count)/2,
+                          latitude: long[j].latitude,
+                            longitude: long[j].longitude
+                        })}
+                   else if(blogs.values[l].count>225 && blogs.values[l].count<=250){
+                       freData.cnt.push({
+                              name: blogs.values[l].location,
+                              freq: blogs.values[l].count,
+                              fillKey: 'second',
+                               radius: Math.sqrt(blogs.values[l].count)/2,
+                                latitude: long[j].latitude,
+                                  longitude: long[j].longitude
+                          
+                              })
+                   }
+                   else if(blogs.values[l].count>250 && blogs.values[l].count<= 300){
+                       freData.cnt.push({
+                              name: blogs.values[l].location,
+                              freq: blogs.values[l].count,
+                              fillKey: 'third',
+                               radius: Math.sqrt(blogs.values[l].count)/2,
+                                latitude: long[j].latitude,
+                                  longitude: long[j].longitude
+                          
+                              })
+                   }
+                   else if(blogs.values[l].count>300 || blogs.values[l].count<= 350){
+                     freData.cnt.push({
+                    name: blogs.values[l].location,
+                    freq: blogs.values[l].count,
+                    fillKey: 'forth',
+                     radius: Math.sqrt(blogs.values[l].count)/2,
+                      latitude: long[j].latitude,
+                        longitude: long[j].longitude
+                
+                    })
+                   }
+                 }
+               }
+             }
+           }
+         }
+       }
+     }
+
+
+  var freqMap = new Datamap({
+    element: document.getElementById('container'),
+    scope: 'world',
+    data_width: '10',
+    geographyConfig: {
+        popupOnHover: true,
+        highlightOnHover: true
+    },
+
+    fills: {
+        'first': '#E1BEE7',
+        'second': '#CE93D8',
+        'third': '#AB47BC',
+        'forth': '#8E24AA',
+        defaultFill: '#B7C5C5'
+    }
+});
+
+
+
+var frequencyData = freData.cnt;
+ 
+
+//draw bubbles for frequencyData
+freqMap.bubbles(frequencyData, {
+    popupTemplate: function (geo, data) {
+            return ['<div class="hoverinfo">' +  data.name,
+             '<br/>Rate per 100,000: ' +  data.freq,
+            '</div>'].join('');
+    }
+});
+});
+
+
+});
+</script>
+
+<script>
+  function legendDemo() {
+
+  sampleNumerical = [200,250,300,350];
+    sampleThreshold=d3.scale.threshold().domain(sampleNumerical).range(
+      ["#E1BEE7","#CE93D8","#AB47BC","#8E24AA"]);
+  horizontalLegend = d3.svg.legend().units("Freq").cellWidth(45).cellHeight(15).inputScale(sampleThreshold).cellStepping(100);
+
+  d3.select("svg").append("g").attr("transform", "translate(50,70)").attr("class", "legend").call(horizontalLegend);
+
+  sampleCategoricalData = ["Something","Something Else", "Another", "This", "That", "Etc"]
+  sampleOrdinal = d3.scale.category20().domain(sampleCategoricalData);
+
+
+  }
+</script>
+   </body>    
+ </html>
